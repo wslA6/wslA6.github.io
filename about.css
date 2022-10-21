@@ -1,0 +1,213 @@
+* {margin: 0;
+	padding: 0 }
+body {font-size:14px;
+	background-color:#f7f7f7;}
+img {border: 0;
+	display: block }
+ul, li {list-style: none; }
+a { text-decoration: none; color: black }
+.tophead {width:100%;
+		 background-color:white;
+		 margin: 0 auto 10px; 
+		 overflow: hidden;}
+.logo { float: left;
+		 overflow: hidden; 
+		 font-size: 30px; 
+		 margin-top: 10px; 
+		 margin-left: 10px }
+.topnav { overflow: hidden; 
+		margin: 10px 0; }
+nav ul { text-align: right; }
+nav ul li { display: inline;
+			font-size: 16px;
+			padding: 10px 20px;
+			height: 46px;
+			line-height: 46px; }
+.topnav { overflow: hidden; 
+		margin: 10px 0; }
+nav ul { text-align: right;}
+nav ul li { display: inline;
+			font-size: 16px;
+			padding: 10px 20px;
+			height: 46px;
+			line-height: 46px; }		 
+.picshow {width: 100%;
+		 height:500px;
+		overflow: hidden;
+		position:relative;
+		margin: 20px auto;
+		border:1px solid;}
+		#imglist{
+			width: 3200px;
+			height: 500px;}
+		#imglist img{
+			width: 800px;
+			height: 500px;}
+		#imglist li{
+			float: left;}
+		.prev{
+			background: #666;
+			width: 30px;
+			height: 40px;
+			color: #fff;
+			text-align: center;
+			line-height: 40px;
+			position: absolute;
+			left: 5px;
+			top: 45%;}
+		.next{
+			background: #666;
+			width: 30px;
+			height: 40px;
+			color: #fff;
+			text-align: center;
+			line-height: 40px;
+			position: absolute;
+			right: 5px;
+			top: 45%;
+			cursor: pointer;}
+		#icolist{
+			position: absolute;
+			right: 10px;
+			
+			bottom: 10px;}
+		#icolist li{
+			width: 30px;
+			height: 30px;
+			border-radius:50% ;
+			background: #666;
+			text-align: center;
+			line-height: 30px;
+			color: #fff;
+			float: left;
+			margin-left: 5px;
+			cursor: pointer;}
+
+.main{ width: 1200px; 
+		margin: 0 auto;
+		overflow: hidden;}
+.mainleft{float: left;
+		 width: 70%;
+		 height:800px;}
+#zdiv{overflow: hidden;
+		border: 10px pink solid;
+		margin: 0 auto;
+		margin-top:10px;
+		border-radius:10%;} 
+#yldiv{background-color:#93B5CF;
+		width: 130px;
+		height: 700px;
+		float: left;
+		color:white;
+		font-size: 18px;}
+#bigtext{font-size: 18px;
+		}
+#bigtext b{
+	color:green;
+	line-height: 4em;}
+p{
+	line-height:2em;
+	text-indent: 1em;
+}
+#yldiv img{
+	padding:30px 30px 10px 30px;
+}		
+#ml{background-color: aliceblue;
+	width:690px;
+	height: 700px;
+	float: left;
+	font-size: 14px;}
+#text{font-size: 14px;
+	line-height: 3em;}
+span{
+	font-size:14px;
+}
+#data1{background-color: aliceblue;
+		width: 70px;
+		height: 4px;}
+#data2{background-color: aliceblue;
+		width: 80px;
+		height: 4px;}
+#data3{background-color: aliceblue;
+		width: 90px;
+		height: 4px;}
+#data4{background-color: aliceblue;
+		width: 75px;
+		height: 4px;}
+.mainright {float: right;
+			width: 18%; 
+			position:absolute;
+			margin:0px 50px 0px 900px;}
+.cloud {width: 100%;
+		background-color: #fff; 
+		margin-top: 10px;}
+.cloud ul { padding: 20px;
+			overflow: hidden; }
+.cloud ul a {line-height: 24px;
+			height: 24px
+			display: block;
+			background: #999; 
+			float: left;
+			padding: 3px 11px;
+			margin: 10px 10px 0 0;
+			border-radius: 8px;
+			color:white;}
+.cloud ul a:nth-child(8n-7) { background: #8A9B0F}
+.cloud ul a:nth-child(8n-6) { background: #EB6841}
+.cloud ul a:nth-child(8n-5) { background: #3FB8AF}
+.cloud ul a:nth-child(8n-4) { background: #FE4365}
+.cloud ul a:nth-child(8n-3) { background: #FC9D9A}
+.cloud ul a:nth-child(8n-2) { background: #EDC951}
+.cloud ul a:nth-child(8n-1) { background: #C8C8A9}
+.cloud ul a:nth-child(8n) { background: #83AF9B}
+.cloud ul a:first-child { background: #036564}
+.cloud ul a:last-child { background: #3299BB}
+.cloud ul a:hover {border-radius: 0;
+			text-shadow: #000 1px 1px 1px;}				
+.hometitle {padding: 0 10px; 
+			line-height: 50px; 
+			height: 50px;
+			font-size: 18px; 
+			border-bottom: 1px solid #e5e5e5;
+			color: #333;
+			position: relative;}
+.paihang { background:#FFF;
+			overflow: hidden;
+			margin: 10px 0px}
+.paihang ul { padding: 10px;}
+.paihang ul li { border-bottom: solid 1px #EAEAEA; 
+				font-size: 14px;
+				 margin: 0 0 10px 0; 
+				 padding: 0 0 10px 0; 
+				 overflow: hidden;}
+.paihang ul li b { height: 30px; 
+					text-overflow: ellipsis; 
+					white-space: nowrap; 
+					overflow: hidden; 
+					display: block;}
+.paihang ul li p { line-height: 24px; 
+					color: #888 }
+.paihang ul li a:hover { color:black;}
+.paihang ul li:hover p { color:black;}
+.paihang ul li:hover b a { color:black;}
+.paihang li span { width: 100px; 
+				height: 90px; 
+				overflow: hidden; 
+				display: block; 
+				border: #efefef 1px solid; 
+				float: left; 
+				margin-right: 10px;}
+.paihang li img { height: 100%; 
+				margin: 0 auto;
+				-moz-transition: all .5s ease; 
+				-webkit-transition: all .5s ease; 
+				transition: all .5s ease;}
+.paihang ul li:hover span img { transform: scale(1.1);}
+.footer { width: 100%;
+		height: 50px;
+		line-height: 50px; 
+		background: #333; 
+		color: #a5a4a4; 
+		text-align: center;}
+footer a {color: #a5a4a4 }
+
