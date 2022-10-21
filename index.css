@@ -110,9 +110,9 @@ h3.blogtitle { line-height: 30px;
 .autor span {margin-right: 10px; 
 			padding-left: 20px;}
 .autor span a { color: #096;}
-.lm { background: url(../images/newsbg01.png) no-repeat left center }
-.dtime { background: url(../images/newsbg02.png) no-repeat left center }
-.viewnum { background: url(../images/newsbg04.png) no-repeat left center }
+.lm { background: url(newsbg01.png) no-repeat left center }
+.dtime { background: url(newsbg02.png) no-repeat left center }
+.viewnum { background: url(newsbg04.png) no-repeat left center }
 .blogpic img {width: 100%}
 .bloginfo p {color: #888;
 			line-height: 24px;}
@@ -120,7 +120,7 @@ h3.blogtitle { line-height: 30px;
 			width: 18%; 
 			position:absolute;
 			margin:0px 50px 0px 900px;}
-.about { background: #FFF url(../images/banner.png) no-repeat top center; 
+.about { background: #FFF url(banner.png) no-repeat top center; 
 					overflow: hidden; }
 .pic {margin: 80px auto 20px;
 		width: 100px }

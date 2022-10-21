@@ -132,7 +132,7 @@ ul.polaroids li a:hover {
 			width: 18%; 
 			position:absolute;
 			margin:0px 50px 0px 900px;}
-.about { background: #FFF url(../images/banner.png) no-repeat top center; 
+.about { background: #FFF url(banner.png) no-repeat top center; 
 					overflow: hidden; }
 .pic {margin: 80px auto 20px;
 		width: 100px }
